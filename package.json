@@ -1,0 +1,20 @@
+{
+  "name": "meu-projeto-api",
+  "version": "1.0.0",
+  "description": "API de gerenciamento de clientes",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.6.5",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "author": "Seu Nome",
+  "license": "ISC"
+}
